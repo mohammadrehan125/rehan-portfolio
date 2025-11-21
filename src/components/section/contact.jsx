@@ -30,7 +30,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center justify-center gap-3 text-slate-300">
               <span className="text-cyan-400">📱</span>
-              <a href="tel:+919690861297" className="hover:text-cyan-400 transition-colors">
+              <a href="tel:+91-9690861297" className="hover:text-cyan-400 transition-colors">
                 +91-9690861297
               </a>
             </div>
@@ -39,14 +39,14 @@ export default function Contact() {
           {/* Social Links */}
           <div className="flex justify-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/mohammadrehan125"
               className="p-3 bg-slate-800 hover:bg-cyan-500/20 border border-slate-700 hover:border-cyan-500/50 rounded-lg transition-all"
               aria-label="GitHub"
             >
               <Github size={20} className="text-slate-400 hover:text-cyan-400" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="www.linkedin.com/in/mohammad-rehan-2379a61b8"
               className="p-3 bg-slate-800 hover:bg-cyan-500/20 border border-slate-700 hover:border-cyan-500/50 rounded-lg transition-all"
               aria-label="LinkedIn"
             >
