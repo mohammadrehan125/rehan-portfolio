@@ -46,7 +46,7 @@ export default function Contact() {
               <Github size={20} className="text-slate-400 hover:text-cyan-400" />
             </a>
             <a
-              href="www.linkedin.com/in/mohammad-rehan-2379a61b8"
+              href="https://www.linkedin.com/in/mohammad-rehan-2379a61b8/"
               className="p-3 bg-slate-800 hover:bg-cyan-500/20 border border-slate-700 hover:border-cyan-500/50 rounded-lg transition-all"
               aria-label="LinkedIn"
             >
