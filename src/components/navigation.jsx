@@ -41,7 +41,26 @@ export default function Navigation({ isScrolled }) {
             </a>
           ))}
         </div>
-        <div>Resume Download</div>
+        <button
+  onClick={() => {
+    const link = document.createElement("a");
+    link.href =   "public/Mohd Rehan Resume.pdf"; 
+    link.download = "Mohammad_Rehan_Resume.pdf";
+    link.click();
+  }}
+  style={{
+    padding: "10px 18px",
+    background: "#009A9A",
+    color: "#fff",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+    fontWeight: "bold"
+  }}
+>
+  Resume Download
+</button>
+
         {/* Mobile Menu Button */}
         <button
           className="md:hidden text-slate-300 hover:text-cyan-400"

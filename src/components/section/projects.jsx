@@ -10,21 +10,31 @@ export default function Projects() {
       title: "ITS Golden Card Management System",
       description:
         "Comprehensive membership management system for card issuance lifecycle. Implemented scalable backend APIs, Kafka for asynchronous event handling, and achieved 30% improvement in API response times.",
-      tech: ["Java", "Spring Boot", "PostgreSQL", "Redis", "Apache Kafka", "AWS"],
+      tech: ["Java", "Spring Boot", "Spring Security", "Spring Data", "PostgreSQL", "Redis", "ElasticSearch", "Kafka"],
       gradient: "from-blue-500 to-cyan-500",
     },
     {
       title: "EV Roaming Platform (OCPI 2.1.1)",
       description:
         "Developed seamless communication platform between CPOs and eMSPs for EV charging. Designed RESTful APIs for real-time charge point info exchange and session management.",
-      tech: ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "Redis", "ElasticSearch", "Kafka"],
+      tech: ["Java", "Spring Boot", "Spring Security", "Spring Data", "PostgreSQL", "Redis", "ElasticSearch", "Kafka"],
       gradient: "from-purple-500 to-pink-500",
+    },
+    {
+      title: "AssetWork",
+      description:
+        `Developed an EV Charging Management System using OCPP 1.6, enabling real-time communication
+        between Charge Points and the Central System. Supported key functionalities such as session
+        management, firmware updates, reservations, and diagnostics to ensure efficient and reliable EV
+        operations.`,
+      tech: ["Java", "Spring Boot", "Spring Security", "Spring Data", "PostgreSQL", "WebSockets programing", "Apache Kafka", "AWS", "Microservices"],
+      gradient: "from-orange-500 to-red-500",
     },
     {
       title: "Advanced EV Charging Management (OCPP 2.0.1)",
       description:
         "Built advanced EV charging system with smart charging, firmware updates, and real-time diagnostics. Reduced operational downtime by 40% and achieved full OCPP 2.0.1 compliance.",
-      tech: ["Java", "Spring Boot", "WebSockets", "Apache Kafka", "AWS", "Microservices"],
+      tech: ["Java", "Spring Boot", "Spring Security", "Spring Data", "PostgreSQL", "WebSockets programing", "Apache Kafka", "AWS", "Microservices"],
       gradient: "from-orange-500 to-red-500",
     },
   ]
