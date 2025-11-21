@@ -42,24 +42,18 @@ export default function Navigation({ isScrolled }) {
           ))}
         </div>
         <button
-  onClick={() => {
-    const link = document.createElement("a");
-    link.href =   "public/Mohd Rehan Resume.pdf"; 
-    link.download = "Mohammad_Rehan_Resume.pdf";
-    link.click();
-  }}
-  style={{
-    padding: "10px 18px",
-    background: "#009A9A",
-    color: "#fff",
-    border: "none",
-    borderRadius: "5px",
-    cursor: "pointer",
-    fontWeight: "bold"
-  }}
->
-  Resume Download
-</button>
+          type="button"
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "/Mohd Rehan Resume.pdf";
+            link.download = "Mohammad_Rehan_Resume.pdf";
+            link.click();
+          }}
+          aria-label="Download resume"
+          className="text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent cursor-pointer hover:from-cyan-500 hover:to-blue-600 transition"
+        >
+          Download Resume
+        </button>
 
         {/* Mobile Menu Button */}
         <button
