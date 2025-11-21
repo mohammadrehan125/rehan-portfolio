@@ -31,23 +31,7 @@ export default function Home() {
       <Projects />
       <Contact />
 
-      {/* Footer */}
-      <footer className="bg-slate-950 border-t border-slate-800 py-8 px-4">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-slate-400 text-sm">&copy; 2025 Developer Portfolio. All rights reserved.</p>
-          <div className="flex gap-4">
-            <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors">
-              <Github size={20} />
-            </a>
-            <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors">
-              <Linkedin size={20} />
-            </a>
-            <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors">
-              <Mail size={20} />
-            </a>
-          </div>
-        </div>
-      </footer>
+     
     </main>
   )
 }
